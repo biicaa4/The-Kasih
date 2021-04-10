@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Rozha+One&family=Sorts+Mill+Goudy&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Rozha One', serif;
+font-family: 'Sorts Mill Goudy', serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* utilities */
+.pb-2 {
+  padding-bottom: 2em;
+}
+
+/* finish utilities */
+.layout--1 {
+  background: #f6eeea;
+}
+.main-page__logo {
+  width: 10em;
+  display: block;
+  margin: auto;
+  padding-top: 5em;
+}
+.main-page__text {
+  text-align: center;
+  padding-top: 3em;
+  color: #b76e79;
+  font-size: 3em;
+}
+
+/* layout */
+.layout {
+  min-height: 120vh;
+  width: 100%;
+}
+.layout--2 {
+  background: #f4f5f4;
+}
+/* heading */
+.heading {
+  background: #b76e79;
+  height: 5em;
+}
+.heading__text {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Sorts Mill Goudy", serif;
+  color: white;
+  padding-top: 1em;
+}
+
+/* image */
+.item {
+  display: block;
+  margin: auto;
+  width: 20em;
+  padding-top: 2em;
+}
+.heading__text--sub {
+  text-align: center;
+  font-family: "Rozha One", serif;
+}
+
+/* information */
+.information {
+  padding-left: 4em;
+  padding-top: 2em;
+  font-family: "Open Sans", sans-serif;
+}
+.line-through {
+  text-decoration: line-through;
+}
+
+/* cta */
+.cta {
+  width: 6em;
+  height: 2.5em;
+  background: black;
+  border-radius: 8px;
+  margin-left: 4em;
+  margin-top: 2em;
+  cursor: pointer;
+}
+.cta--text {
+  text-align: center;
+  padding-top: 0.5em;
+}
+.cta--link {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+/* sevent page */
+.heading--layout {
+  background: #b76e79;
+  height: 10em;
+}
+.heading--text {
+  display: block;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "Sorts Mill Goudy", serif;
+  color: white;
+  width: 10em;
+  margin: auto;
+  padding-top: 0.5em;
+  font-weight: 400;
+}
+/* information */
+.details {
+  padding-left: 4em;
+  padding-top: 6em;
+  font-family: "Rozha One", serif;
+}
+.details--1 {
+  display: flex;
+  padding-bottom: 5em;
+}
+.details--triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 18px 0 18px 31.2px;
+  border-color: transparent transparent transparent #b76e79;
+}
+.details--2 {
+  display: flex;
+}
+.details--text {
+  padding-left: 3em;
+  font-size: 1.5em;
+}
+/* img */
+.box {
+  width: 30em;
+  display: block;
+  margin: auto;
+}
+
+/* eight page */
+.eight-page {
+  min-height: 150vh;
+}
+.contact--layout {
+  background: #f6eeea;
+  position: relative;
+  left: 12%;
+  top: 5em;
+  width: 80%;
+  height: 50em;
+  border-radius: 1em;
+}
+.contact--text {
+  font-size: 4em;
+  font-weight: 400;
+  font-family: "Sorts Mill Goudy", serif;
+  padding-top: 2em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 50%;
+}
+.contact-logo {
+  width: 10em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+/* social media */
+/* instagram */
+.contact-social--insta {
+  display: flex;
+  position: absolute;
+  bottom: 13em;
+  left: 25%;
+}
+.contact-social--insta-img {
+  width: 3em;
+}
+.contact-social--insta-text {
+  font-size: 1.5em;
+  padding-top: 0.4em;
+  padding-left: 10%;
+  font-weight: 300;
+}
+/* whatsapp */
+.contact-social--ws {
+  display: flex;
+  position: absolute;
+  bottom: 5em;
+  left: 25%;
+}
+.contact-social--ws-img {
+  width: 3em;
+}
+.contact-social--ws-text {
+  font-size: 1.5em;
+  padding-top: 0.4em;
+  padding-left: 10%;
+  font-weight: 300;
+}
