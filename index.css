@@ -38,7 +38,8 @@ html {
 
 /* layout */
 .layout {
-  min-height: 100vh;
+  min-height: 100%;
+  padding-bottom: 5em;
   width: 100%;
 }
 .layout--2 {
@@ -154,8 +155,9 @@ html {
 
 /* eight page */
 .eight-page {
-  min-height: 130vh;
+  min-height: 100%;
   position: absolute;
+  padding-bottom: 10em;
 }
 .contact--layout {
   background: #f6eeea;
@@ -194,6 +196,10 @@ html {
 .contact-social--insta-img {
   width: 4em;
   height: 100%;
+}
+.contact-social--link {
+  text-decoration: none;
+  color: black;
 }
 .contact-social--insta-text {
   font-size: 2em;
