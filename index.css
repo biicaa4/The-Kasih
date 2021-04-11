@@ -10,6 +10,10 @@ font-family: 'Sorts Mill Goudy', serif; */
   padding: 0;
 }
 
+html {
+  -webkit-text-size-adjust: none;
+  font-size: 62.5%;
+}
 /* utilities */
 .pb-2 {
   padding-bottom: 2em;
@@ -20,21 +24,21 @@ font-family: 'Sorts Mill Goudy', serif; */
   background: #f6eeea;
 }
 .main-page__logo {
-  width: 10em;
+  width: 15em;
   display: block;
   margin: auto;
-  padding-top: 5em;
+  padding-top: 10em;
 }
 .main-page__text {
   text-align: center;
   padding-top: 3em;
   color: #b76e79;
-  font-size: 3em;
+  font-size: 5em;
 }
 
 /* layout */
 .layout {
-  min-height: 120vh;
+  min-height: 100vh;
   width: 100%;
 }
 .layout--2 {
@@ -43,26 +47,28 @@ font-family: 'Sorts Mill Goudy', serif; */
 /* heading */
 .heading {
   background: #b76e79;
-  height: 5em;
+  height: 8em;
 }
 .heading__text {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 3em;
   font-family: "Sorts Mill Goudy", serif;
   color: white;
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 
 /* image */
 .item {
   display: block;
   margin: auto;
-  width: 20em;
-  padding-top: 2em;
+  width: 25em;
+  padding-top: 3em;
+  border-radius: 5px;
 }
 .heading__text--sub {
   text-align: center;
   font-family: "Rozha One", serif;
+  font-size: 1.5em;
 }
 
 /* information */
@@ -70,6 +76,8 @@ font-family: 'Sorts Mill Goudy', serif; */
   padding-left: 4em;
   padding-top: 2em;
   font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  line-height: 2em;
 }
 .line-through {
   text-decoration: line-through;
@@ -77,17 +85,18 @@ font-family: 'Sorts Mill Goudy', serif; */
 
 /* cta */
 .cta {
-  width: 6em;
-  height: 2.5em;
+  width: 10em;
+  height: 4em;
   background: black;
   border-radius: 8px;
-  margin-left: 4em;
+  margin-left: 7em;
   margin-top: 2em;
   cursor: pointer;
 }
 .cta--text {
   text-align: center;
   padding-top: 0.5em;
+  font-size: 1.5em;
 }
 .cta--link {
   text-decoration: none;
@@ -99,12 +108,12 @@ font-family: 'Sorts Mill Goudy', serif; */
 /* sevent page */
 .heading--layout {
   background: #b76e79;
-  height: 10em;
+  height: 15em;
 }
 .heading--text {
   display: block;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 4em;
   font-family: "Sorts Mill Goudy", serif;
   color: white;
   width: 10em;
@@ -134,7 +143,7 @@ font-family: 'Sorts Mill Goudy', serif; */
 }
 .details--text {
   padding-left: 3em;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 /* img */
 .box {
@@ -145,7 +154,8 @@ font-family: 'Sorts Mill Goudy', serif; */
 
 /* eight page */
 .eight-page {
-  min-height: 150vh;
+  min-height: 130vh;
+  position: absolute;
 }
 .contact--layout {
   background: #f6eeea;
@@ -153,11 +163,11 @@ font-family: 'Sorts Mill Goudy', serif; */
   left: 12%;
   top: 5em;
   width: 80%;
-  height: 50em;
+  height: 65em;
   border-radius: 1em;
 }
 .contact--text {
-  font-size: 4em;
+  font-size: 6em;
   font-weight: 400;
   font-family: "Sorts Mill Goudy", serif;
   padding-top: 2em;
@@ -167,10 +177,10 @@ font-family: 'Sorts Mill Goudy', serif; */
   left: 50%;
 }
 .contact-logo {
-  width: 10em;
+  width: 15em;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 55%;
   left: 50%;
 }
 /* social media */
@@ -178,14 +188,15 @@ font-family: 'Sorts Mill Goudy', serif; */
 .contact-social--insta {
   display: flex;
   position: absolute;
-  bottom: 13em;
+  bottom: 12em;
   left: 25%;
 }
 .contact-social--insta-img {
-  width: 3em;
+  width: 4em;
+  height: 100%;
 }
 .contact-social--insta-text {
-  font-size: 1.5em;
+  font-size: 2em;
   padding-top: 0.4em;
   padding-left: 10%;
   font-weight: 300;
@@ -194,14 +205,15 @@ font-family: 'Sorts Mill Goudy', serif; */
 .contact-social--ws {
   display: flex;
   position: absolute;
-  bottom: 5em;
+  bottom: 3em;
   left: 25%;
 }
 .contact-social--ws-img {
-  width: 3em;
+  width: 4em;
+  height: 100%;
 }
 .contact-social--ws-text {
-  font-size: 1.5em;
+  font-size: 2em;
   padding-top: 0.4em;
   padding-left: 10%;
   font-weight: 300;
