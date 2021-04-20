@@ -1,0 +1,27 @@
+.main-page__logo {
+  width: 15em;
+  display: block;
+  margin: auto;
+  padding-top: 10em;
+
+  @include respond(ipad) {
+    width: 30em;
+    padding-top: 15em;
+  }
+}
+
+.contact-logo {
+  width: 15em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
+
+  @include respond(iphone11ProMax) {
+    width: 20em;
+  }
+  @include respond(ipad) {
+    width: 30em;
+    top: 40%;
+  }
+}

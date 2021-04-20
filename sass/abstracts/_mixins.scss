@@ -1,0 +1,22 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == iphone11ProMax {
+    @media (max-width: 25.875em) {
+      @content; //414px
+    }
+  }
+  @if $breakpoint == Pixel2 {
+    @media (max-width: 25.688em) {
+      @content; //411px
+    }
+  }
+  @if $breakpoint == ipad {
+    @media (min-width: 48em) {
+      @content; //768px
+    }
+  }
+  @if $breakpoint == laptop {
+    @media (min-width: 80em) {
+      @content; //1280px
+    }
+  }
+} ;

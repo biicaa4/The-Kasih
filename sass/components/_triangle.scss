@@ -1,0 +1,12 @@
+//seven page
+.details--triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 31.2px;
+  border-color: transparent transparent transparent #b76e79;
+
+  @include respond(ipad) {
+    border-width: 40px 0 40px 60px;
+  }
+}

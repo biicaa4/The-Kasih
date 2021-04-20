@@ -1,0 +1,22 @@
+{
+  "name": "the-kasih",
+  "version": "1.0.0",
+  "description": "thekasihscraf",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biicaa4/The-Kasih.git"
+  },
+  "author": "Biica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biicaa4/The-Kasih/issues"
+  },
+  "homepage": "https://github.com/biicaa4/The-Kasih#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

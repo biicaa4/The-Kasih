@@ -1,0 +1,32 @@
+/* cta */
+.cta {
+  width: 15em;
+  height: 5em;
+  background: black;
+  border-radius: 8px;
+  margin-left: 11em;
+  margin-top: 3.5em;
+  cursor: pointer;
+
+  @include respond(ipad) {
+    width: 25em;
+    height: 10em;
+    margin-left: 25em;
+    margin-top: 5em;
+  }
+}
+.cta--text {
+  text-align: center;
+  padding-top: 0.5em;
+  font-size: 2em;
+
+  @include respond(ipad) {
+    font-size: 3.5em;
+  }
+}
+.cta--link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}

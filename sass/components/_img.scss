@@ -1,0 +1,20 @@
+.item {
+  width: 35em;
+  display: block;
+  margin: auto;
+  padding-top: 3em;
+  border-radius: 5px;
+  max-width: 100%;
+
+  @include respond(ipad) {
+    width: 70em;
+    padding-top: 4em;
+  }
+}
+
+.box {
+  position: relative;
+  left: 0em;
+  max-width: 100%;
+  background-size: contain;
+}

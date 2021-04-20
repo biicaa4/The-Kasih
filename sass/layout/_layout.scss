@@ -1,0 +1,96 @@
+/* layout */
+.layout-mainpage {
+  min-height: 100vh;
+  max-width: 100%;
+
+  @include respond(ipad) {
+    min-height: 80vh;
+  }
+}
+.layout {
+  min-height: 110vh;
+  max-width: 100%;
+
+  @include respond(Pixel2) {
+    min-height: 120vh;
+  }
+  @include respond(ipad) {
+    min-height: 160vh;
+  }
+
+  @include respond(laptop) {
+    min-height: 250vh;
+  }
+}
+.layout--1 {
+  background: #f6eeea;
+}
+.layout--2 {
+  background: #f4f5f4;
+}
+
+/* sevent page */
+.heading--layout {
+  background: #b76e79;
+  height: 15em;
+
+  @include respond(ipad) {
+    height: 25em;
+  }
+}
+/*  sevent page */
+.details {
+  padding-left: 4em;
+  padding-top: 6em;
+  font-family: 'Rozha One', serif;
+
+  @include respond(ipad) {
+    padding-top: 20em;
+  }
+}
+.details--1 {
+  display: flex;
+  padding-bottom: 5em;
+
+  @include respond(ipad) {
+    padding-bottom: 15em;
+  }
+}
+
+.details--2 {
+  display: flex;
+}
+.details--text {
+  padding-left: 1.5em;
+  font-size: 3em;
+
+  @include respond(ipad) {
+    font-size: 5em;
+  }
+}
+
+/* eight page */
+.eight-page {
+  min-height: 100%;
+  padding-bottom: 10em;
+
+  @include respond(ipad) {
+    min-height: 100vh;
+  }
+}
+.contact--layout {
+  background: #f6eeea;
+  position: relative;
+  left: 12%;
+  top: 5em;
+  width: 80%;
+  height: 65em;
+  border-radius: 1em;
+
+  @include respond(iphone11ProMax) {
+    height: 75em;
+  }
+  @include respond(ipad) {
+    height: 110em;
+  }
+}

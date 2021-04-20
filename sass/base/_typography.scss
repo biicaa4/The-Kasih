@@ -1,0 +1,99 @@
+html {
+  -webkit-text-size-adjust: none;
+  font-size: 62.5%;
+}
+// main page
+.main-page__text {
+  text-align: center;
+  padding-top: 3em;
+  color: #b76e79;
+  font-size: 6em;
+
+  @include respond(Pixel2) {
+    padding-top: 2em;
+  }
+  @include respond(ipad) {
+    font-size: 10em;
+    padding-top: 1.5em;
+  }
+}
+
+.heading__text {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: white;
+  padding-top: 0.8em;
+
+  @include respond(ipad) {
+    font-size: 7em;
+    padding-top: 0.4em;
+  }
+}
+
+.heading__text--sub {
+  text-align: center;
+  font-family: 'Rozha One', serif;
+  font-size: 2.5em;
+
+  @include respond(ipad) {
+    font-size: 4em;
+  }
+}
+
+/* sixth page */
+/* information */
+.information {
+  padding-top: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  padding-left: 0.5em;
+  line-height: 2em;
+
+  @include respond(iphone11ProMax) {
+    font-size: 2.5em;
+    padding-left: 1em;
+  }
+  @include respond(ipad) {
+    font-size: 5em;
+    padding-left: 2em;
+  }
+}
+.line-through {
+  text-decoration: line-through;
+}
+//seven page
+.heading--text {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: white;
+  width: 10em;
+  margin: auto;
+  padding-top: 0.5em;
+  font-weight: 400;
+
+  @include respond(ipad) {
+    font-size: 7em;
+  }
+}
+
+//eight page
+.contact--text {
+  font-size: 6em;
+  font-weight: 400;
+  font-family: 'Sorts Mill Goudy', serif;
+  padding-top: 2em;
+
+  @include respond(iphone11ProMax) {
+    padding-left: 0.8em;
+    font-size: 6.5em;
+    padding-top: 1em;
+  }
+  @include respond(ipad) {
+    font-size: 10em;
+    padding-top: 1em;
+    padding-left: 0.5em;
+  }
+}

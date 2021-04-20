@@ -1,0 +1,9 @@
+/* heading */
+.heading {
+  background: #b76e79;
+  height: 10em;
+
+  @include respond(ipad) {
+    height: 15em;
+  }
+}

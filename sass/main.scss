@@ -1,0 +1,17 @@
+@import 'abstracts/mixins';
+
+@import 'base/base';
+@import 'base/typography';
+
+@import 'components/btn';
+@import 'components/icon';
+@import 'components/img';
+@import 'components/logo';
+@import 'components/triangle';
+
+@import 'layout/header';
+@import 'layout/layout';
+
+@import 'utilities/padding';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Rozha+One&family=Sorts+Mill+Goudy&display=swap');

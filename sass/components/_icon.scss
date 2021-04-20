@@ -1,0 +1,61 @@
+/* social media */
+/* instagram */
+.contact-social--insta {
+  display: flex;
+  position: absolute;
+  bottom: 12em;
+  left: 15%;
+
+  @include respond(ipad) {
+    bottom: 30em;
+  }
+}
+.contact-social--insta-img {
+  width: 4em;
+  height: 100%;
+
+  @include respond(ipad) {
+    width: 7em;
+  }
+}
+.contact-social--link {
+  text-decoration: none;
+  color: black;
+}
+.contact-social--insta-text {
+  font-size: 3em;
+  padding-left: 10%;
+  font-weight: 300;
+
+  @include respond(ipad) {
+    font-size: 5em;
+  }
+}
+/* whatsapp */
+.contact-social--ws {
+  display: flex;
+  position: absolute;
+  bottom: 3em;
+  left: 15%;
+
+  @include respond(ipad) {
+    bottom: 15em;
+  }
+}
+.contact-social--ws-img {
+  width: 4em;
+  height: 100%;
+
+  @include respond(ipad) {
+    width: 7em;
+  }
+}
+.contact-social--ws-text {
+  font-size: 3em;
+  padding-left: 10%;
+  font-weight: 300;
+
+  @include respond(ipad) {
+    font-size: 5em;
+  }
+}
